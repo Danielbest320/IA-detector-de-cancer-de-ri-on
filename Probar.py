@@ -49,6 +49,6 @@ def predict(image_path, model_path="modelo_resnet_fft.pth", device=None):
     print(f"Probabilidades: {probs.cpu().numpy()}")
 
 if __name__ == "__main__":
-    ruta_imagen = r"C:\Users\ivanv\Desktop\ProyectoMatematicasEspeciales\imagen4.jpg"
+    ruta_imagen = r"C:\Users\ASUS\Desktop\Especiales\ProyectoEspeciales\IA-detector-de-cancer-de-ri-on\imagen9.jpg"
 
     predict(ruta_imagen)

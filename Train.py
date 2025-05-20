@@ -8,7 +8,7 @@ from dataset import FFTImageDataset
 from Model import get_modified_resnet18
 
 def main():
-    root_dir = r"C:\Users\ivanv\Desktop\ProyectoMatematicasEspeciales\ImagenesCancer"
+    root_dir = r"C:\Users\ASUS\Desktop\Especiales\ProyectoEspeciales\IA-detector-de-cancer-de-ri-on\ImagenesCancer"
 
     dataset = FFTImageDataset(root_dir=root_dir, img_size=224)
 

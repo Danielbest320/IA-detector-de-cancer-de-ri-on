@@ -219,9 +219,7 @@ if __name__ == "__main__":
     #
     # Ejemplo con múltiples imágenes (opcional)
     rutas_multiples = [
-        r"C:\Users\ASUS\Desktop\Especiales\ProyectoEspeciales\IA-detector-de-cancer-de-ri-on\imagen9.jpg",
-        r"C:\Users\ASUS\Desktop\Especiales\ProyectoEspeciales\IA-detector-de-cancer-de-ri-on\imagen3.jpg",
-        r"C:\Users\ASUS\Desktop\Especiales\ProyectoEspeciales\IA-detector-de-cancer-de-ri-on\imagen4.jpg"
+        r"C:\Users\lubri\OneDrive\Escritorio\Universidad\QuintoSemestre\MatematicasEspeciales\IA-detector-de-cancer-de-ri-on\andreaaaa.jpg"
     ]
-    visualize_fft(rutas_multiples[2])
+    visualize_fft(rutas_multiples[0])
     compare_multiple_images(rutas_multiples)

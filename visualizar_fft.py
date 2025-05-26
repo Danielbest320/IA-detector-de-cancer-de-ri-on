@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 import os
 import torch
 import torch.nn.functional as F
-from torchvision import transforms
-from PIL import Image
 
 # Importar el modelo (asegúrate de que estos archivos estén en el mismo directorio)
 from Model import get_modified_resnet18
@@ -219,7 +217,7 @@ if __name__ == "__main__":
     #
     # Ejemplo con múltiples imágenes (opcional)
     rutas_multiples = [
-        r"C:\Users\lubri\OneDrive\Escritorio\Universidad\QuintoSemestre\MatematicasEspeciales\IA-detector-de-cancer-de-ri-on\andreaaaa.jpg"
+        r"C:\Users\lubri\OneDrive\Escritorio\Universidad\QuintoSemestre\MatematicasEspeciales\IA-detector-de-cancer-de-ri-on\ImagenesPrueba\banderaBrasil.jpg"
     ]
     visualize_fft(rutas_multiples[0])
     compare_multiple_images(rutas_multiples)

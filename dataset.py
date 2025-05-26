@@ -15,7 +15,7 @@ class FFTImageDataset(Dataset):
     def __init__(self, root_dir, transform=None, img_size=224):
         self.root_dir = root_dir #Directorio que contiene las subcarpetas de las imagenes
         self.transform = transform #Se almacenara la transformada de muestra
-        self.img_size = img_size #Dimensiones de la imagen
+        self.img_size = img_size #Redimensiona la imagen
         #Obtener las clases y el nombre de sus subcarpetas ordenadas
         self.classes = sorted(os.listdir(root_dir))
         #Tupla para almacenar la ruta de la imagen y su etiqueta
